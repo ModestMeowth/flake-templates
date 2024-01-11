@@ -1,0 +1,9 @@
+# https://numtide.github.io/devshell
+[[commands]]
+package = "just"
+
+[devshell]
+packages = [
+    "ansible",
+    "ansible-lint",
+]
