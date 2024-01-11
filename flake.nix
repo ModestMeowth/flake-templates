@@ -3,11 +3,12 @@
 
   outputs = { self }: {
     templates = {
-      default = ansible-config;
       ansible-config = {
-        path = "./ansible-config";
+        path = ./ansible-config;
         description = "Per device ansible config template";
       };
     };
+
+    defaultTemplate = self.templates.ansible-config;
   };
 }
