@@ -1,0 +1,7 @@
+[[env]]
+name = "GO111MODULE"
+value = "on"
+
+[[commands]]
+category = "go"
+package = "go"

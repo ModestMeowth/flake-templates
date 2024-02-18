@@ -1,0 +1,7 @@
+[[commands]]
+category = "rust"
+package = "rustc"
+
+[[commands]]
+category = "rust"
+package = "cargo"
