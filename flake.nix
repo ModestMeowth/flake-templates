@@ -19,6 +19,11 @@
         description = "Basic Golang environment";
       };
 
+      js-project = {
+          path = ./js-project;
+          description = "Basic Javascript environment";
+      };
+
       ansible-config = {
         path = ./ansible-config;
         description = "Per device ansible config template";
