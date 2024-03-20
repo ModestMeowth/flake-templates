@@ -24,9 +24,14 @@
           description = "Basic Javascript environment";
       };
 
-      ansible-config = {
-        path = ./ansible-config;
+      ansible = {
+        path = ./ansible;
         description = "Per device ansible config template";
+      };
+
+      compose = {
+        path = ./compose;
+        description = "Docker compose template";
       };
 
     };

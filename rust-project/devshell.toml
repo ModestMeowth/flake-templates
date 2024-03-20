@@ -1,7 +1,4 @@
-[[env]]
-name = "CARGO_HOME"
-eval = "${PRJ_ROOT}/.cargo"
-
+# https://numtide.github.io/devshell
 [[commands]]
 category = "rust"
 package = "rustc"
