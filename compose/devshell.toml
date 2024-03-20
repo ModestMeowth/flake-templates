@@ -1,3 +1,3 @@
 # https://numtide.github.io/devshell
 [devshell]
-packages = [ "npm" ] # needed for compose-lanugage-service
+packages = [ "nodePackages_latest.nodejs" ] # needed for compose-lanugage-service
