@@ -29,6 +29,11 @@
         description = "Per device ansible config template";
       };
 
+      terraform = {
+          path = ./terraform;
+          description = "Terraform template";
+      };
+
       compose = {
         path = ./compose;
         description = "Docker compose template";
